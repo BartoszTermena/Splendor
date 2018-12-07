@@ -1,0 +1,50 @@
+body {
+  background: url('./ZenBG-1.png'), url('./ZenBG-2.png');
+  background-repeat: repeat-x, repeat;
+}
+.token_area {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 11%;
+    width: 50%;
+    max-width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.card_area {
+  display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 50%;
+    max-width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.tokens {
+  width:75px;
+  height: auto;
+}
+.user_tokens {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    width: 50%;
+    max-width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-left {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  font-size: 25px; 
+}
+.higlight:hover {
+  box-shadow: 10px 10px 8px #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
